@@ -1,5 +1,5 @@
 {
-  "name": "@repo/ui-demo",
+  "name": "turbo-ui-packages",
   "version": "0.0.0",
   "exports": {
     ".": {
@@ -22,7 +22,6 @@
   },
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch",
     "lint": "eslint . --ext .tsx,.jsx,.ts --max-warnings 0",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
