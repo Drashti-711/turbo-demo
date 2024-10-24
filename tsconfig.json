@@ -1,0 +1,21 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "include": [".", "components/*.ts","components/*.tsx"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "target": "ESNext", 
+    "module": "commonjs",
+    "outDir": "./dist", // Output compiled files to dist folder
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+}
